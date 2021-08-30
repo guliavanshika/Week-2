@@ -1,0 +1,1 @@
+SELECT FirstName , LastName from Person.Person where FirstName like 'B%';

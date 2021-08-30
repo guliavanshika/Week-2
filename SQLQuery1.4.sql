@@ -1,0 +1,1 @@
+SELECT  Name, Color, Weight From Production.Product where Weight >= (select max(Weight) from Production.Product);
